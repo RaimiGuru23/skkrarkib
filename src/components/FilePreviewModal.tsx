@@ -66,18 +66,6 @@ export function FilePreviewModal({ file, onClose }: FilePreviewModalProps) {
           </div>
 
           <div className="flex items-center gap-2 shrink-0">
-            {!file.isMock && (
-              <a
-                href={file.webViewLink}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center gap-1.5 h-8 px-3 rounded-lg border border-[#E5E7EB] bg-[#FFFFFF] text-xs font-medium text-[#111827] hover:bg-[#FAFAFA] transition-colors whitespace-nowrap"
-              >
-                <ExternalLink className="w-3.5 h-3.5 text-[#6B7280]" aria-hidden="true" />
-                <span className="hidden sm:inline">Buka di Drive</span>
-              </a>
-            )}
-
             {!descriptor.isFolder && (
               file.isMock ? (
                 <button

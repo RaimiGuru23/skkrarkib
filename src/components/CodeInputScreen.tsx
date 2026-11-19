@@ -176,7 +176,7 @@ export function CodeInputScreen({
           Arkib SKKR
         </h1>
         <p className="mt-2.5 text-sm leading-relaxed text-[#6B7280] max-w-[34ch]">
-          Masukkan kod akses 6 digit yang diberikan kepada anda untuk melihat fail anda.
+          Masukkan 6 digit terakhir Kad Pengenalan anak anda untuk melihat fail yang diisi.
         </p>
       </div>
 
