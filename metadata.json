@@ -1,0 +1,6 @@
+{
+  "name": "Document Portal",
+  "description": "Minimalist 6-digit access code portal for viewing shared Google Drive folders.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
